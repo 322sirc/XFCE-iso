@@ -1,5 +1,5 @@
 favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,firefox.desktop,sublime_text.desktop,org.manjaro.pamac.manager.desktop
-recent=ca.desrt.dconf-editor.desktop,uxterm.desktop,xfce4-terminal.desktop,discord.desktop,xfce4-settings-editor.desktop,xfce-ui-settings.desktop,gparted.desktop,xfce-xfcalendar-settings.desktop,menulibre.desktop,hardinfo.desktop
+recent=xfce4-settings-editor.desktop,ca.desrt.dconf-editor.desktop,org.flameshot.Flameshot.desktop,uxterm.desktop,xfce4-terminal.desktop,discord.desktop,xfce-ui-settings.desktop,gparted.desktop,xfce-xfcalendar-settings.desktop,menulibre.desktop
 button-title=Menu
 button-icon=applications-all
 button-single-row=false
