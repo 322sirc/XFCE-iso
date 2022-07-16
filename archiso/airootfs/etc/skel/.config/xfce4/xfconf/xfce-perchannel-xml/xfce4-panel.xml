@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="70"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="70"/>
+      <property name="length" type="uint" value="96"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+        <value type="int" value="19"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="18"/>
+        <value type="int" value="16"/>
+        <value type="int" value="14"/>
+        <value type="int" value="5"/>
+        <value type="int" value="15"/>
+        <value type="int" value="9"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="17"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="position" type="string" value="p=11;x=1293;y=16"/>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="size" type="uint" value="29"/>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-image" type="string" value="/usr/share/backgrounds/arcolinux/arco-login.jpg"/>
+      <property name="disable-struts" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-10" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-11" type="string" value="clock">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="actions">
+      <property name="appearance" type="uint" value="1"/>
+      <property name="ask-confirmation" type="bool" value="true"/>
+      <property name="button-title" type="uint" value="3"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+      <property name="custom-title" type="string" value=""/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="0"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="22"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="orage"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (85%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (78%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (87%)"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (48%)"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="wi-fi network connection “sm-g991w7251” active: sm-g991w7251 (81%)"/>
+        <value type="string" value="wi-fi network connection “sm-g991w7251” active: sm-g991w7251 (77%)"/>
+        <value type="string" value="wi-fi network connection “sm-g991w7251” active: sm-g991w7251 (78%)"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (44%)"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (38%)"/>
+        <value type="string" value="configuring wi-fi network connection “datavalet”…"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (51%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (30%)"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="wi-fi network connection “datavalet” active: datavalet (47%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="discord1"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="power-manager-plugin"/>
+    <property name="plugin-9" type="string" value="notification-plugin"/>
+    <property name="plugin-14" type="string" value="xfce4-mount-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance1204;firefox.instance1572;firefox.instance2065;firefox.instance4014"/>
+    </property>
+    <property name="plugin-17" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Pickering, Pickering GO pedestrian bridge"/>
+        <property name="latitude" type="string" value="43.831463"/>
+        <property name="longitude" type="string" value="-79.084413"/>
+      </property>
+      <property name="msl" type="int" value="85"/>
+      <property name="timezone" type="string" value="America/Toronto"/>
+      <property name="offset" type="string" value="-04:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="1"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="7"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="xfce4-clipman-plugin"/>
+    <property name="plugin-18" type="string" value="screenshooter"/>
+    <property name="plugin-19" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+  </property>
+</channel>
