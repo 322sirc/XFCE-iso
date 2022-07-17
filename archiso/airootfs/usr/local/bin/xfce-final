@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Copy /etc/skel to /root"
+echo "#################################"
+cp -aT /etc/skel/ /root/
