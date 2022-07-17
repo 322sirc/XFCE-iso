@@ -151,7 +151,7 @@ wget
 
 alci-calamares
 
-alci-calamares-config-xanmod-edge
+#alci-calamares-config-xanmod-edge
 
 xterm
 
