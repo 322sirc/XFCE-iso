@@ -2,3 +2,7 @@
 echo "Copy /etc/skel to /root"
 echo "#################################"
 cp -aT /etc/skel/ /root/
+
+cho "Setting Mozilla Firefox touchscreen scrolling"
+echo "#################################"
+echo "MOZ_USE_XINPUT2 DEFAULT=1" >> /etc/security/pam_env.conf
