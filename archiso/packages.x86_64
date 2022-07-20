@@ -323,10 +323,12 @@ archlinux-tweak-tool-git
 alacritty
 audacious
 dmenu
+discord
 feh
 firefox
 flameshot
 galculator
+geoclue
 guvcview
 kvantum-qt5
 meld
@@ -336,10 +338,11 @@ audacious
 qbittorrent
 nemo
 nemo-fileroller
-gnome-terminal
+gnome-terminal-transparency
 gnome-logs
 gnome-screenshot
 gparted
+parallel
 plank
 sublime-text-4
 spotify-adblock-git

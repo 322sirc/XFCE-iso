@@ -1,24 +1,60 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[14ba9346-3ba1-42e8-a951-48d4f0b1f4c3]
+[/home/cris/Downloads]
 row=0
+col=1
+
+[/home/cris/AmOs-Out]
+row=13
+col=0
+
+[/home/cris/alci-build]
+row=2
+col=0
+
+[/home/cris/Git]
+row=11
+col=0
+
+[/home/cris/Work]
+row=9
+col=0
+
+[/home/cris/time]
+row=2
+col=1
+
+[/home/cris/amos-build]
+row=12
+col=0
+
+[/home/cris/conkyrun.sh]
+row=1
+col=1
+
+[/home/cris/weather]
+row=3
+col=1
+
+[/home/cris/Alci-Iso-Xanmod-Edge-Out]
+row=10
 col=0
 
 [3ad9a269-c995-4a88-afa3-3c2d49e9d915]
 row=3
 col=0
 
-[1f7304fe-11a2-40a8-9d42-2160c0711de7]
-row=2
+[27480290-babf-4761-9ae4-0c0d0f215e8e]
+row=1
 col=0
 
 [DEAE8996AE89683B]
 row=5
 col=0
 
-[27480290-babf-4761-9ae4-0c0d0f215e8e]
-row=1
+[14ba9346-3ba1-42e8-a951-48d4f0b1f4c3]
+row=0
 col=0
 
 [9e3adac8-ee0e-4e3c-bece-5c73c7705d74]

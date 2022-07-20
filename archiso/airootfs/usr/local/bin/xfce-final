@@ -3,7 +3,7 @@ echo "Copy /etc/skel to /root"
 echo "#################################"
 cp -aT /etc/skel/ /root/
 
-echo "Setting Mozilla Firefox touchscreen scrolling"
+echo "Settings: Mozilla Firefox touchscreen scrolling"
 echo "#################################"
 echo "MOZ_USE_XINPUT2 DEFAULT=1" >> /etc/security/pam_env.conf
 
@@ -11,3 +11,6 @@ echo "Change Cursor Globally "
 echo "#################################"
 sed -i "s/Inherits=Adwaita/Inherits=Catppuccin-Pink-Cursors/g" /usr/share/icons/default/index.theme
 
+echo "Settings: ConsoleFonts "
+echo "#################################"
+echo "FONT=ter-132b" >> /etc/vconsole.conf

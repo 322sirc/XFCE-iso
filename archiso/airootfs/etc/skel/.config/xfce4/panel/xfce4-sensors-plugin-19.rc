@@ -20,8 +20,8 @@ Number=2
 
 [Chip2_Feature0]
 Address=0
-Name=Package id 0
-Color=#F17DAD
+Name=CPU
+Color=#D16768
 Show=true
 Min=0
 Max=76
@@ -40,8 +40,16 @@ Number=5
 
 [Chip5_Feature1]
 Address=1
-Name=thermal_zone2
-Color=#CD7EBF
+Name=termal_zone2
+Color=#D16768
+Show=true
+Min=20
+Max=60
+
+[Chip5_Feature3]
+Address=3
+Name=GPU
+Color=#0000B0
 Show=true
 Min=20
 Max=60
