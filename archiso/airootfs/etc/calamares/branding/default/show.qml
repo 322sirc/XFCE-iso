@@ -46,7 +46,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Welcome to"
+        text: "Welcome to XFCE "
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ALCI"
+        text: "XFCE"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

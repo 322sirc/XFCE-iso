@@ -43,7 +43,7 @@ The examples are not exhaustive.
 
 #sidebarMenuApp {
 	padding: 3px;
-	background-color: #292F34;
+	background-color: #240515;
 }
 
 QWidget {
@@ -267,7 +267,7 @@ QHeaderView::section {
 }
 
 #debugButton:hover {
-	color: #ff7f7f;
+	color: #353945;
 }
 
 #aboutButton {
