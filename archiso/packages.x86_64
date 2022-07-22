@@ -334,7 +334,6 @@ kvantum-qt5
 meld
 mintstick
 numlockx
-audacious
 qbittorrent
 nemo
 nemo-fileroller
@@ -397,8 +396,9 @@ ttf-ms-fonts
 amos-gtk-themes-git
 amos-plank-themes-git
 Arc-Froly-Dark-gtk-theme
-fluent-icon-theme-bp
-fluent-red-icon-theme
+#fluent-icon-theme-bp
+#fluent-red-icon-theme
+fluent -icon-theme-git
 catppuccin-cursors-git
 wallpapers-personal
 conky-lua
