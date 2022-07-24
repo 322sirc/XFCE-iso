@@ -224,8 +224,10 @@ virtualbox-guest-utils
 #xf86-video-intel
 #xf86-video-amdgpu
 #xf86-video-nouveau
+xf86-video-qxl 
 
 xf86-input-evdev
+xf86-video-fbdev
 xf86-input-void
 xf86-input-wacom
 mesa
@@ -247,7 +249,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
-libdvdcss
+libdvdcssv4l
 wireplumber
 pipewire-jack
 pipewire
@@ -255,6 +257,8 @@ pipewire-alsa
 pipewire-pulse
 pipewire-v4l2
 pavucontrol
+
+v4l-utils
 
 
 ##### lightdm display manager
@@ -276,7 +280,7 @@ poppler-qt5
 
 ##### gdm display manager
 
-#gdm
+#gdmv4l
 
 
 
