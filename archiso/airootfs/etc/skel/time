@@ -40,7 +40,7 @@ own_window_argb_visual = true,
 	minimum_height = 200,
     maximum_height = 200,
 	maximum_width  = 800,
-	minimum_width  = 1000,
+	minimum_width  = 100,
 
 	use_xft = true,
 	xftalpha = 0.8,
@@ -52,7 +52,7 @@ own_window_argb_visual = true,
   	total_run_times = 0,
 
 -- this value is in bytes - do not sting over this ;-)
-	text_buffer_size = 2000,
+	text_buffer_size = 556,
 	update_interval = 1,
 
 --	gap_x = 95,

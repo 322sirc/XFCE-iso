@@ -39,9 +39,9 @@ own_window_argb_visual = true,
 
 	minimum_height = 500,
 --	minimum_height = 800,
-	maximum_height = 500,
+	maximum_height = 600,
 -- maximum_width 550,
-	maximum_width  = 1200,
+	maximum_width  = 1100,
 	minimum_width  = 1100,
 
 	use_xft = true,
@@ -74,7 +74,7 @@ own_window_argb_visual = true,
 	color9 = 'Tomato',        --FF6347
 
 
--- Pickering Ontario Canada lat/long location
+-- Pickering lat/long location
     template1 = '43.900120',
     template2 = '-79.132889',
 

@@ -108,6 +108,17 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="false"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (84%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (69%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (71%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (91%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (81%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (88%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (89%)"/>
+        <value type="string" value="requesting a wi-fi network address for “cristina223-5ghz”…"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (90%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (83%)"/>
         <value type="string" value="thunar"/>
         <value type="string" value="configuring wi-fi network connection “cristina223-5ghz”…"/>
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
@@ -146,7 +157,7 @@
     </property>
     <property name="plugin-15" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1204;firefox.instance1572;firefox.instance2065;firefox.instance4014"/>
+      <property name="mpris-players" type="string" value="firefox.instance1204;firefox.instance1227;firefox.instance1528;firefox.instance1535;firefox.instance1572;firefox.instance179272;firefox.instance2065;firefox.instance24673;firefox.instance4014;firefox.instance4624;firefox.instance4655;firefox.instance8119;spotify;Tuner"/>
     </property>
     <property name="plugin-17" type="string" value="weather">
       <property name="location" type="empty">

@@ -32,25 +32,25 @@
           "type": "os"
         },
         {
-          "background": "#7621de",
+          "background": "#0f2f62",
           "foreground": "#ff8c94",
           "style": "diamond",
-          "leading_diamond": "<transparent,#7621de>\ue0b0</>",
+          "leading_diamond": "<transparent,#0f2f62>\ue0b0</>",
           "properties": {
             "template": "CPU: {{ round .PhysicalPercentUsed .Precision }}% | "
           },
           "type": "sysinfo"
         },
         {
-          "background": "#7621de",
+          "background": "#0f2f62",
           "foreground": "#ff8c94",
           "style": "diamond",
           "template": "RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB \uf85a ",
-          "trailing_diamond": "<transparent,#7621de>\ue0b2</>",
+          "trailing_diamond": "<transparent,#0f2f62>\ue0b2</>",
           "type": "sysinfo"
         },
         {
-          "background": "#7621de",
+          "background": "#0f2f62",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b2",
           "properties": {
