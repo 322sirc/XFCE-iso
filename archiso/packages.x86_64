@@ -221,10 +221,6 @@ gnome-bluetooth
 #to have fullscreen
 virtualbox-guest-utils
 
-
-
-xf86-video-qxl 
-
 xf86-input-evdev
 xf86-video-fbdev
 xf86-input-void
@@ -248,7 +244,6 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
-libdvdcssv4l
 wireplumber
 pipewire-jack
 pipewire
