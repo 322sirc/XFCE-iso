@@ -226,12 +226,17 @@ xf86-video-fbdev
 xf86-input-void
 xf86-input-wacom
 mesa
+mesa-vdpau
+mesa-utils
 dkms
 intel-media-driver
+intel-gpu-tools
 libva-intel-driver
 libva-vdpau-driver
-mesa-vdpau
+libva-utils
 vulkan-intel
+vulkan-mesa-layers
+vulkan-tools
 
 ####Drivers audio
 alsa-firmware
@@ -244,6 +249,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gstreamer-vaapi
 wireplumber
 pipewire-jack
 pipewire
