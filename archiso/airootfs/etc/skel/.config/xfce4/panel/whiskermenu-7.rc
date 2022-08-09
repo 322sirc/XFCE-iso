@@ -1,5 +1,5 @@
 favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,firefox.desktop,sublime_text.desktop,org.manjaro.pamac.manager.desktop
-recent=xfce-display-settings.desktop,spotify-adblock.desktop,com.github.louis77.tuner.desktop,plank.desktop,xfce-session-settings.desktop,gpick.desktop,xfce4-power-manager-settings.desktop,xfce-wmtweaks-settings.desktop,archlinux-tweak-tool.desktop,org.gnome.Logs.desktop
+recent=com.github.louis77.tuner.desktop,mintstick.desktop,org.gnome.Logs.desktop,spotify-adblock.desktop,xfce-display-settings.desktop,plank.desktop,xfce-session-settings.desktop,xfce4-power-manager-settings.desktop,xfce-wmtweaks-settings.desktop,archlinux-tweak-tool.desktop
 button-title=Menu
 button-icon=applications-all
 button-single-row=false

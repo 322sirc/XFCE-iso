@@ -49,6 +49,7 @@
       <property name="digital-format" type="string" value="%I:%M %p"/>
       <property name="mode" type="uint" value="2"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="timezone" type="string" value="Etc/GMT+4"/>
     </property>
     <property name="plugin-12" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
@@ -108,6 +109,20 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="false"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (76%)"/>
+        <value type="string" value="wi-fi network connection “crisbill-5g” active: crisbill-5g (73%)"/>
+        <value type="string" value="wi-fi network connection “crisbill-5g” active: crisbill-5g (71%)"/>
+        <value type="string" value="wi-fi network connection “crisbill-5g” active: crisbill-5g (70%)"/>
+        <value type="string" value="wi-fi network connection “crisbill-5g” active: crisbill-5g (69%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (79%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (66%)"/>
+        <value type="string" value="preparing wi-fi network connection “cristina223-5ghz”…"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (77%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (75%)"/>
+        <value type="string" value="configuring wi-fi network connection “crisbill-5g”…"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (93%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (56%)"/>
+        <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (82%)"/>
         <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (84%)"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="wi-fi network connection “cristina223-5ghz” active: cristina223-5ghz (69%)"/>
@@ -143,6 +158,7 @@
         <value type="string" value="wi-fi network connection “datavalet” active: datavalet (47%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="Skype1"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="discord1"/>
       </property>
@@ -152,12 +168,13 @@
     <property name="plugin-14" type="string" value="xfce4-mount-plugin"/>
     <property name="clipman" type="empty">
       <property name="settings" type="empty">
-        <property name="add-primary-clipboard" type="bool" value="true"/>
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+        <property name="max-texts-in-history" type="uint" value="150"/>
       </property>
     </property>
     <property name="plugin-15" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1204;firefox.instance1227;firefox.instance1528;firefox.instance1535;firefox.instance1572;firefox.instance179272;firefox.instance2065;firefox.instance24673;firefox.instance4014;firefox.instance4624;firefox.instance4655;firefox.instance8119;spotify;Tuner"/>
+      <property name="mpris-players" type="string" value="chromium.instance40845;firefox.instance1204;firefox.instance1227;firefox.instance1515;firefox.instance1522;firefox.instance1528;firefox.instance1535;firefox.instance1536;firefox.instance1539;firefox.instance1572;firefox.instance179272;firefox.instance1798;firefox.instance1919;firefox.instance2065;firefox.instance2302;firefox.instance24673;firefox.instance2974;firefox.instance3230;firefox.instance4014;firefox.instance4624;firefox.instance4655;firefox.instance53586;firefox.instance7390;firefox.instance8119;spotify;Tuner"/>
     </property>
     <property name="plugin-17" type="string" value="weather">
       <property name="location" type="empty">

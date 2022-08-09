@@ -7,7 +7,6 @@ b43-fwcutter
 base
 bind
 brltty
-#broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
@@ -91,8 +90,6 @@ pcsclite
 ppp
 pptpclient
 pv
-qemu-guest-agent
-refind
 reflector
 reiserfsprogs
 rp-pppoe
@@ -237,6 +234,7 @@ libva-utils
 vulkan-intel
 vulkan-mesa-layers
 vulkan-tools
+onevpl-intel-gpu
 
 ####Drivers audio
 alsa-firmware
@@ -335,6 +333,7 @@ nemo-fileroller
 gnome-terminal-transparency
 gnome-logs
 gnome-screenshot
+gnome-disk-utility
 gparted
 parallel
 plank
@@ -347,6 +346,7 @@ vlc
 ###conky
 jq
 lm_sensors
+conky-lua-archers-git
 
 
 

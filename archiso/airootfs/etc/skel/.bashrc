@@ -4,6 +4,8 @@ export VISUAL='nano'
 export HISTCONTROL=ignoreboth:erasedups
 export PAGER='most'
 export BROWSER='firefox'
+export LIBVA_DRIVER_NAME=iHD
+export MOZ_X11_EGL=1
 
 #Ibus settings if you need them
 #type ibus-setup in terminal to change settings and start the daemon
