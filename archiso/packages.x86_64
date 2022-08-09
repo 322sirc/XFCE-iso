@@ -8,8 +8,6 @@ base
 bind
 brltty
 btrfs-progs
-clonezilla
-cloud-init
 crda
 cryptsetup
 darkhttpd
@@ -177,8 +175,6 @@ gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
-#gvfs-nfs
-#gvfs-smb
 mtpfs
 udiskie
 udisks2
