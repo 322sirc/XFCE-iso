@@ -235,6 +235,7 @@ vulkan-intel
 vulkan-mesa-layers
 vulkan-tools
 onevpl-intel-gpu
+intel-gpu-tools
 
 ####Drivers audio
 alsa-firmware
@@ -338,7 +339,7 @@ gparted
 parallel
 plank
 sublime-text-4
-spotify-adblock-git
+spotify-adblock
 stacer-bin
 tilix
 vlc
@@ -347,8 +348,6 @@ vlc
 jq
 lm_sensors
 conky-lua-archers-git
-
-
 
 
 #Themes,icons,configurations
