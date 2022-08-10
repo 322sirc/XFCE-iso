@@ -6,6 +6,7 @@ export PAGER='most'
 export BROWSER='firefox'
 export LIBVA_DRIVER_NAME=iHD
 export MOZ_X11_EGL=1
+export MOZ_DISABLE_RDD_SANDBOX=1
 
 #Ibus settings if you need them
 #type ibus-setup in terminal to change settings and start the daemon
@@ -44,7 +45,7 @@ alias l.="ls -A | egrep '^\.'"
 #alias cd..='cd ..'
 alias pdw='pwd'
 alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
+alias update='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 alias upqll='paru -Syu --noconfirm'
@@ -67,12 +68,6 @@ alias fgrep='fgrep --color=auto'
 #readable output
 alias df='df -h'
 
-#keyboard
-alias give-me-azerty-be="sudo localectl set-x11-keymap be"
-alias give-me-qwerty-us="sudo localectl set-x11-keymap us"
-
-#setlocale
-alias setlocale="sudo localectl set-locale LANG=en_US.UTF-8"
 
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -81,17 +76,9 @@ alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 #arcolinux logout unlock
 alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
 
-#which graphical card is working
-alias whichvga="/usr/local/bin/arcolinux-which-vga"
-
-#free
-alias free="free -mt"
 
 #continue download
 alias wget="wget -c"
-
-#userlist
-alias userlist="cut -d: -f1 /etc/passwd | sort"
 
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
@@ -99,21 +86,11 @@ alias merge="xrdb -merge ~/.Xresources"
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
 
 # paru as aur helper - updates everything
 alias pksyua="paru -Syu --noconfirm"
 alias upall="paru -Syu --noconfirm"
 
-#ps
-alias psa="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-
-#grub update
-alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-#add new fonts
-alias update-fc='sudo fc-cache -fv'
 
 #copy/paste all content of /etc/skel over to home folder - backup of config created - beware
 #skel alias has been replaced with a script at /usr/local/bin/skel
@@ -141,10 +118,6 @@ alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable l
 # kill commands
 # quickly kill conkies
 alias kc='killall conky'
-# quickly kill polybar
-alias kp='killall polybar'
-# quickly kill picom
-alias kpi='killall picom'
 
 #hardware info --short
 alias hw="hwinfo --short"
@@ -169,13 +142,6 @@ alias ram='rate-mirrors --allow-root --disable-comments arch | sudo tee /etc/pac
 alias rams='rate-mirrors --allow-root --disable-comments --protocol https arch  | sudo tee /etc/pacman.d/mirrorlist'
 
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
-
-#enabling vmware services
-alias start-vmware="sudo systemctl enable --now vmtoolsd.service"
-alias vmware-start="sudo systemctl enable --now vmtoolsd.service"
-alias sv="sudo systemctl enable --now vmtoolsd.service"
 
 #shopt
 shopt -s autocd # change to named directory
@@ -185,12 +151,6 @@ shopt -s dotglob
 shopt -s histappend # do not overwrite history
 shopt -s expand_aliases # expand aliases
 
-#youtube download
-alias yta-aac="yt-dlp --extract-audio --audio-format aac "
-alias yta-best="yt-dlp --extract-audio --audio-format best "
-alias yta-flac="yt-dlp --extract-audio --audio-format flac "
-alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
-alias ytv-best="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 "
 
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
@@ -279,11 +239,22 @@ alias sysfailed="systemctl list-units --failed"
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
-#update betterlockscreen images
-alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
+#grub update
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias mkinit="sudo mkinitcpio -P"
+alias mkernel="makepkg -s --skippgpcheck"
+alias upsum="updpkgsums"
+alias mkinstall="makepkg -sic"
+alias locinstall="sudo pacman -U"
 
-#give the list of all installed desktops - xsessions desktops
-alias xd="ls /usr/share/xsessions"
+
+#personal
+
+alias clone="git clone"
+alias repoup="repo-add repo.db.tar.gz *.pkg.tar.zst"
+alias gitup="./git-v2.sh"
+alias gitset="./setup.sh"
+
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
