@@ -54,6 +54,7 @@ linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
+upd72020x-fw
 livecd-sounds
 lsscsi
 lvm2
