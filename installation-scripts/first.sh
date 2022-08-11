@@ -36,8 +36,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 65-1"
-	buildFolder=$HOME"/alci-build"
-	outFolder=$HOME"/Alci-Iso-Xanmod-Edge-Out"
+	buildFolder=$HOME"/XFCE-build"
+	outFolder=$HOME"/XFCE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
