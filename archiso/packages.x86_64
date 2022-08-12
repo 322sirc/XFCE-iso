@@ -197,7 +197,7 @@ neofetch
 laptop-detect
 xf86-input-elographics
 xf86-input-libinput
-tlp
+power-profiles-daemon
 
 ##### Bluetooth 
 blueberry
