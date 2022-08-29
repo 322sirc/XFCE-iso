@@ -37,16 +37,14 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
-        anchors.fill: parent
+        anchors.centerIn: parent
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Welcome to XFCE "
+        anchors.horizontalCenter: background1.horizontalCenter
+        anchors.top: background1.bottom
+        text: "Welcome to ALCI "
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -62,16 +60,14 @@ Presentation
         id: background2
         source: "2-alci.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
-        verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
-        anchors.fill: parent
+        anchors.centerIn: parent
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "XFCE"
+        anchors.horizontalCenter: background2.horizontalCenter
+        anchors.top: background2.bottom
+        text: "ALCI"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

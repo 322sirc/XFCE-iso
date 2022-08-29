@@ -58,8 +58,6 @@ alias balance="powerprofilesctl set balanced"
 alias performance="powerprofilesctl set performance"
 alias power-saver="powerprofilesctl set power-saver"
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
-
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -211,17 +209,17 @@ alias fix-keyserver="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/
 
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
-alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias key-fix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias keys-fix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fixkey="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fixkeys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fix-key="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
-alias fix-keys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
+alias keyfix="/usr/local/bin/fixkey"
+alias key-fix="/usr/local/bin/fixkey"
+alias keys-fix="/usr/local/bin/fixkey"
+alias fixkey="/usr/local/bin/fixkey"
+alias fixkeys="/usr/local/bin/fixkey"
+alias fix-key="/usr/local/bin/fixkey"
+alias fix-keys="/usr/local/bin/fixkey"
 #fix-sddm-config is no longer an alias but an application - part of ATT
 #alias fix-sddm-config="/usr/local/bin/arcolinux-fix-sddm-config"
-alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
-alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
+#alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
+#alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -248,7 +246,7 @@ alias mkinstall="makepkg -sic"
 alias locinstall="sudo pacman -U"
 
 
-#personal
+#git
 
 alias clone="git clone"
 alias repoup="repo-add repo.db.tar.gz *.pkg.tar.zst"
@@ -315,8 +313,11 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
+eval "$(oh-my-posh init bash --config ~/.poshthemes/if_tea_mine.omp.json)"
+
 # reporting tools - install when not installed
-neofetch
+fastfetch
+#neofetch
 #screenfetch
 #alsi
 #paleofetch

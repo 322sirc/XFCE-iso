@@ -24,18 +24,9 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#Let us set the desktop"
-	#First letter of desktop is small letter
-
-	#desktop="xfce"
-	#lightdmDesktop="xfce"
-
-	#arcolinuxVersion='v21.03.1'
-
-	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
-
+	
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 65-1"
+	archisoRequiredVersion="archiso 66-1"
 	buildFolder=$HOME"/XFCE-build"
 	outFolder=$HOME"/XFCE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)
@@ -307,3 +298,14 @@ echo "- Check your out folder :"$outFolder
 tput sgr0
 echo "################################################################## "
 echo
+echo "##################################################################"
+tput setaf 2
+
+echo "Phase 9 :"
+echo "- Making sure we start with a clean slate next time"
+tput sgr0
+echo "################################################################## "
+echo
+
+	echo "Deleting the build folder if one exists - takes some time"
+	[ -d $buildFolder ] && sudo rm -rf $buildFolder

@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         XFCE
     shortProductName:    XFCE
-    version:             2022.08.1
-    shortVersion:        2022.08
+    version:             2022.09.15
+    shortVersion:        2022.09
     versionedName:       XFCE
     shortVersionedName:  XFCE
     bootloaderEntryName: Generic
