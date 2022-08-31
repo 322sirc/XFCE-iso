@@ -288,9 +288,9 @@ poppler-qt5
 
 
 ##### core packages
+pacman-hooks
 
 base-devel
-
 appstream
 fuse2
 fuse3
