@@ -45,7 +45,7 @@ iw
 #iwd
 jfsutils
 ki18n
-kitty-terminfo
+kitty-terminfo-git
 kpmcore
 less
 lftp
@@ -347,7 +347,7 @@ geoclue
 guvcview
 kvantum-qt5
 inkscape
-kitty
+kitty-git
 meld
 mintstick
 numlockx
