@@ -1,4 +1,3 @@
-
 amd-ucode
 arch-install-scripts
 archiso
@@ -295,8 +294,8 @@ fuse3
 gcc
 git
 hwinfo
-linux-xanmod-edge
-linux-xanmod-edge-headers
+linux-xanmod
+linux-xanmod-headers
 most
 sound-theme-freedesktop
 soundtouch
