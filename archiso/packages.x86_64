@@ -175,6 +175,7 @@ dconf-editor
 neofetch
 fastfetch
 pacman-mirrorup
+thermald
 
 ##### network
 networkmanager
@@ -414,4 +415,4 @@ nemo-meld-compare
 oh-my-posh-bin
 tuner-git
 libinput-gestures
-libinput_gestures_qt
+gestures
