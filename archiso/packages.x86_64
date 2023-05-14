@@ -173,7 +173,6 @@ htop
 bashtop
 dconf-editor
 neofetch
-fastfetch
 pacman-mirrorup
 thermald
 
@@ -383,6 +382,7 @@ conky-lua-archers-git
 adobe-source-sans-fonts
 noto-fonts
 nerd-fonts-hack
+nerd-fonts-lekton
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -412,7 +412,7 @@ pamac-aur-git
 intel-compute-runtime
 nemo-compare
 nemo-meld-compare
-oh-my-posh-bin
+#oh-my-posh-bin
 tuner-git
 libinput-gestures
 gestures
