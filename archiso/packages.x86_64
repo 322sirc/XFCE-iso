@@ -343,7 +343,7 @@ flameshot
 galculator
 geoclue
 guvcview
-kvantum-qt5
+kvantum
 inkscape
 kitty-git
 meld
@@ -398,8 +398,9 @@ Arc-Froly-Dark-gtk-theme
 #fluent-red-icon-theme
 fluent-round-icon-theme-mod-git
 catppuccin-cursors-frappe
+catppuccin-gtk-theme-frappe
 wallpapers-personal
-sddm-theme-catppuccin
+sddm-catppuccin-git
 kvantum-theme-catppuccin-git
 
 
