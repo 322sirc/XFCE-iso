@@ -26,7 +26,7 @@ echo
 
 	
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 69-1"
+	archisoRequiredVersion="archiso 72-1"
 	buildFolder=$HOME"/XFCE-build"
 	outFolder=$HOME"/XFCE-iso"
 	archisoVersion=$(sudo pacman -Q archiso)
